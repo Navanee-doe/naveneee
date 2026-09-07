@@ -203,12 +203,12 @@ function App() {
           </div>
 
           <div className="experience-card experience-card-secondary">
-            <div className="experience-meta"><span>Amman Builders</span><span>1 week internship</span></div>
+            <div className="experience-meta"><span>Right Builders</span><span>1 week internship</span></div>
             <div className="experience-main">
               <div className="experience-icon"><FileText size={28} /></div>
               <div>
                 <h3>Construction &amp; Office Internship</h3>
-                <p className="experience-company">Amman Builders</p>
+                <p className="experience-company">Right Builders</p>
                 <p>Completed a one-week internship with construction-site and office exposure, including drawing study and observing the execution of works.</p>
                 <div className="experience-tags">
                   <span>1 week internship</span>
@@ -242,12 +242,7 @@ function App() {
             </a>
             <a className="document-row" href="/assets/scanned-certificate.pdf" target="_blank" rel="noreferrer">
               <span className="document-icon"><FileText size={20} /></span>
-              <span><strong>Amman Builders Internship Certificate</strong><small>Additional certificate · 1 week internship</small></span>
-              <span className="document-action"><ArrowUpRight size={17} /></span>
-            </a>
-            <a className="document-row" href="/assets/navaneethan-certificate.pdf" target="_blank" rel="noreferrer">
-              <span className="document-icon"><ShieldCheck size={20} /></span>
-              <span><strong>NCC Certificate B</strong><small>Certificate · National Cadet Corps</small></span>
+              <span><strong>Right Builders Internship Certificate</strong><small>Additional certificate · 1 week internship</small></span>
               <span className="document-action"><ArrowUpRight size={17} /></span>
             </a>
             <a className="document-row" href="/assets/course-certificate.pdf" target="_blank" rel="noreferrer">
