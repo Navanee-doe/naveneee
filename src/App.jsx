@@ -245,6 +245,11 @@ function App() {
               <span><strong>Right Builders Internship Certificate</strong><small>Additional certificate · 1 week internship</small></span>
               <span className="document-action"><ArrowUpRight size={17} /></span>
             </a>
+            <a className="document-row" href="/assets/navaneethan-certificate.pdf" target="_blank" rel="noreferrer">
+              <span className="document-icon"><ShieldCheck size={20} /></span>
+              <span><strong>NCC Certification</strong><small>Certificate B · National Cadet Corps</small></span>
+              <span className="document-action"><ArrowUpRight size={17} /></span>
+            </a>
             <a className="document-row" href="/assets/course-certificate.pdf" target="_blank" rel="noreferrer">
               <span className="document-icon"><FileText size={20} /></span>
               <span><strong>Course Certificates</strong><small>Additional learning and achievements</small></span>
