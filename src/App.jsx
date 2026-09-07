@@ -197,7 +197,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <a className="certificate-link" href="/assets/navaneethan-certificate.pdf" target="_blank" rel="noreferrer">
+            <a className="certificate-link" href="/assets/scanned-certificate.pdf" target="_blank" rel="noreferrer">
               <FileText size={17} /> View internship certificate <ArrowUpRight size={16} />
             </a>
           </div>
@@ -235,9 +235,9 @@ function App() {
               <span><strong>Resume</strong><small>PDF · Profile and experience</small></span>
               <span className="document-action"><Download size={17} /></span>
             </a>
-            <a className="document-row" href="/assets/navaneethan-certificate.pdf" target="_blank" rel="noreferrer">
+            <a className="document-row" href="/assets/scanned-certificate.pdf" target="_blank" rel="noreferrer">
               <span className="document-icon"><HardHat size={20} /></span>
-              <span><strong>Amman Builders Internship Certificate</strong><small>Original certificate · 1 week internship · July 2024</small></span>
+              <span><strong>Amman Builders Internship Certificate</strong><small>Scanned certificate · 1 week internship</small></span>
               <span className="document-action"><ArrowUpRight size={17} /></span>
             </a>
             <a className="document-row" href="/assets/scanned-certificate.pdf" target="_blank" rel="noreferrer">
