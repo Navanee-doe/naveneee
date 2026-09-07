@@ -796,3 +796,292 @@ main,
     height: 360px;
   }
 }
+
+/* New visual direction: editorial charcoal, acid-lime accents, and strong type. */
+:root {
+  --ink: #101311;
+  --panel: #181d19;
+  --panel-soft: #202720;
+  --line: rgba(245, 245, 235, 0.15);
+  --muted: #aab1a5;
+  --lime: #baff32;
+  --cream: #f5f5eb;
+}
+
+body {
+  background-color: var(--ink);
+}
+
+.portfolio-shell {
+  width: min(1400px, calc(100% - 64px));
+  padding: 28px 0 56px;
+}
+
+.ambient {
+  width: 22rem;
+  height: 22rem;
+  filter: blur(120px);
+  opacity: 0.12;
+}
+
+.ambient-one {
+  background: var(--lime);
+}
+
+.ambient-two {
+  background: #f5f5eb;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  padding: 0 0 22px;
+}
+
+.brand {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--lime);
+  color: var(--ink);
+  box-shadow: none;
+}
+
+.brand-mark {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.78rem;
+}
+
+.site-nav {
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(24, 29, 25, 0.78);
+  padding: 5px;
+}
+
+.nav-link {
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background: var(--lime);
+  color: var(--ink);
+}
+
+.header-resume,
+.mobile-resume {
+  border-radius: 6px;
+  border-color: var(--lime);
+  background: transparent;
+  color: var(--cream);
+}
+
+.hero-section {
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 72px;
+  min-height: 78vh;
+  padding-top: 64px;
+}
+
+.eyebrow,
+.section-label {
+  color: var(--lime);
+  font-family: 'DM Mono', monospace;
+  letter-spacing: 0.08em;
+}
+
+.eyebrow-dot {
+  background: var(--lime);
+  box-shadow: 0 0 14px rgba(186, 255, 50, 0.75);
+}
+
+.hero-copy h1 {
+  max-width: 760px;
+  font-size: clamp(3.8rem, 8vw, 8.8rem);
+  letter-spacing: -0.09em;
+  line-height: 0.86;
+}
+
+.hero-role {
+  max-width: 620px;
+  color: var(--lime);
+  font-weight: 500;
+}
+
+.hero-socials a {
+  border-radius: 8px;
+  border-color: var(--line);
+  background: var(--panel);
+}
+
+.hero-text,
+.about-copy,
+.section-intro p,
+.focus-item p,
+.timeline-content p:last-child,
+.experience-main p:last-of-type,
+.contact-panel p {
+  color: var(--muted);
+}
+
+.button-primary {
+  border-radius: 6px;
+  background: var(--lime);
+  color: var(--ink);
+  box-shadow: 5px 5px 0 rgba(245, 245, 235, 0.22);
+}
+
+.text-button {
+  color: var(--cream);
+}
+
+.portrait-frame {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: var(--line);
+  background: var(--panel);
+  box-shadow: 14px 14px 0 rgba(186, 255, 50, 0.14);
+}
+
+.portrait-image {
+  height: 560px;
+  border-radius: 6px;
+  background-image: linear-gradient(180deg, rgba(16, 19, 17, 0.04), rgba(16, 19, 17, 0.26)), url('/assets/profile.jpg');
+  background-position: center;
+}
+
+.portrait-caption {
+  color: var(--muted);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+}
+
+.portrait-caption strong {
+  color: var(--lime);
+}
+
+.orbit-label {
+  align-self: flex-end;
+  border-color: var(--lime);
+  border-radius: 6px;
+  background: var(--lime);
+  color: var(--ink);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.76rem;
+}
+
+.content-section {
+  padding-top: 100px;
+}
+
+.section-label span {
+  border-radius: 4px;
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--ink);
+  font-family: 'DM Mono', monospace;
+}
+
+.about-grid h2,
+.section-intro h2,
+.contact-panel h2 {
+  font-size: clamp(2.8rem, 5vw, 5.4rem);
+  letter-spacing: -0.07em;
+}
+
+.about-grid h2 em,
+.section-intro h2 em,
+.contact-panel h2 em {
+  color: var(--lime);
+}
+
+.focus-item,
+.software-grid article,
+.timeline-item,
+.stat-strip > div,
+.experience-card,
+.document-row,
+.contact-panel,
+.contact-links a {
+  border-radius: 8px;
+  border-color: var(--line);
+  background: var(--panel);
+  box-shadow: none;
+}
+
+.focus-item:hover,
+.document-row:hover,
+.contact-links a:hover {
+  border-color: var(--lime);
+  transform: translateY(-3px);
+}
+
+.focus-icon,
+.experience-icon,
+.document-icon,
+.timeline-marker {
+  border-radius: 6px;
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--ink);
+}
+
+.focus-arrow,
+.timeline-year,
+.timeline-place,
+.experience-company,
+.document-action {
+  color: var(--lime);
+}
+
+.skills-caption,
+.experience-meta,
+.site-footer {
+  color: var(--muted);
+  font-family: 'DM Mono', monospace;
+}
+
+.experience-tags span {
+  border-radius: 4px;
+  border-color: var(--line);
+  background: var(--panel-soft);
+  color: var(--muted);
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+}
+
+@media (max-width: 980px) {
+  .portfolio-shell {
+    width: min(100% - 36px, 1400px);
+  }
+
+  .hero-section {
+    gap: 42px;
+  }
+}
+
+@media (max-width: 640px) {
+  .portfolio-shell {
+    width: min(100% - 24px, 1400px);
+  }
+
+  .hero-section {
+    padding-top: 42px;
+  }
+
+  .hero-copy h1 {
+    font-size: 3.6rem;
+  }
+
+  .portrait-image {
+    height: 420px;
+  }
+}

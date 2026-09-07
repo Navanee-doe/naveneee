@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -8,12 +10,12 @@ html {
 
 body {
   margin: 0;
-  font-family: Inter, 'Segoe UI', sans-serif;
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(30, 64, 175, 0.18), transparent 26%),
-    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.14), transparent 20%),
-    #020f1c;
-  color: #edf5ff;
+    linear-gradient(115deg, rgba(172, 255, 47, 0.06), transparent 28%),
+    radial-gradient(circle at 88% 12%, rgba(255, 255, 255, 0.08), transparent 22%),
+    #101311;
+  color: #f5f5eb;
 }
 
 body,
